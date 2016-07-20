@@ -11,6 +11,7 @@ RUN apt-get update && \
       wget \
       make \
       git \
+      parallel \
       build-essential \
       libpq-dev \
       qt5-default \
