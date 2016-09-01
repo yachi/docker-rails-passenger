@@ -1,7 +1,7 @@
 FROM phusion/passenger-ruby23
 
 # use korean mirror
-RUN sed -i 's#archive\.ubuntu\.com#kr.archive.ubuntu.com#' /etc/apt/sources.list
+# RUN sed -i 's#archive\.ubuntu\.com#kr.archive.ubuntu.com#' /etc/apt/sources.list
 
 RUN curl -sL https://deb.nodesource.com/setup_6.x | bash -
 RUN apt-get install -y nodejs
