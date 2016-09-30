@@ -21,6 +21,7 @@ RUN apt-get update && \
       passenger \
       ttf-wqy-microhei \
       imagemagick \
+      postgresql-contrib-9.5 \
       graphviz
 
 RUN npm install -g phantomjs-prebuilt grunt
