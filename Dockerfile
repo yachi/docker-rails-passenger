@@ -24,7 +24,7 @@ RUN apt-get update && \
       postgresql-contrib-9.5 \
       graphviz
 
-RUN npm install -g phantomjs-prebuilt grunt
+RUN npm install -g phantomjs-prebuilt grunt yarn
 
 RUN mkdir /app
 
